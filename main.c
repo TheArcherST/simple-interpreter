@@ -184,7 +184,7 @@ int main() {
   fclose(source_file);
   fclose(destination_file);
 
-  source_file = fopen("program.samplec", "rb");
+  source_file = fopen("program-example.simplec", "rb");
   if (source_file == NULL) {
     exit(-1);
   }
