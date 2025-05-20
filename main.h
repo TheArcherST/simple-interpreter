@@ -23,13 +23,13 @@ enum Opcode {
   OPCODE_OUT       = 0x4,
   // swap values of reg1 and reg2
   OPCODE_SWAP      = 0x5,
-  // add register 1 to register 2 and store result within register 1 (i - inpace. inspired by Python's `__iadd__`)
+  // add register 1 to register 2 and store result within register 1 (i - inplace. inspired by Python's `__iadd__`)
   OPCODE_IADD      = 0x6,
-  // multiplie register 1 on register 2 and store result within register 1 (i - inpace)
+  // multiplie register 1 on register 2 and store result within register 1 (i - inplace)
   OPCODE_IMUL      = 0x7,
-  // sub register 1 with register 2 and store result within register 1 (i - inpace)
+  // sub register 1 with register 2 and store result within register 1 (i - inplace)
   OPCODE_ISUB      = 0x8,
-  // divide register 1 on register 2 and store result within register 1 (i - inpace)
+  // divide register 1 on register 2 and store result within register 1 (i - inplace)
   OPCODE_IDIV      = 0x9,
 };
 
