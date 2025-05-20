@@ -1,0 +1,5 @@
+in 1 256
+out 1
+in 2 3
+iadd 1 2
+out 1
